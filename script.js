@@ -63,3 +63,13 @@ for(c = 2; c <= 10; c++) {
         console.log(c + '*' + d + '=' + pr);
     }
 }
+
+//Seventh
+console.log('Seventh');
+let num = 0;
+for(n = 1000; n >= 50;) {
+    n = n / 2;
+    num++;
+}
+console.log('Результат деления равен ' + n);
+console.log('Количество итераций равно ' + num);
