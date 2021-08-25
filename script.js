@@ -17,3 +17,11 @@ while (k >= 11) {
     document.write(k, '<br/>');
     k = k - 1;
 }
+
+//Third
+console.log('Third');
+let sum = 0;
+for(m = 0; m <= 100; m++) {
+    sum = sum + m;
+}
+console.log('Сумма чисел равна ', sum);
