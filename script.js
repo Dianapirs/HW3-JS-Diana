@@ -53,3 +53,13 @@ for(b = 8; b <= 56; b++) {
         console.log(b);
     }    
 }
+
+//Sixth
+console.log('Sixth');
+let pr = 0;
+for(c = 2; c <= 10; c++) {
+    for(d = 1; d <= 10; d++){
+        pr = c * d;
+        console.log(c + '*' + d + '=' + pr);
+    }
+}
