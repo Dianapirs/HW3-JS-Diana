@@ -90,3 +90,20 @@ console.log('Сумма введенных чисел равна ' + sumE);
 console.log('Среднее арифметическое введенных чисел равно ' + aver);
 
 
+//Ninth
+console.log('Ninth');
+let str = '4 98 4 6 1 32 4 65 4 3 5 7 89 7 10 1 36 8 57';
+let strArr = str.split(' ');
+let min = strArr[0];
+let max = strArr[0];
+for(let p = 0; p < strArr.length; p++) {
+    if(min > strArr[p]){
+        min = strArr[p];
+    } 
+    if(max < strArr[p]){
+        max = strArr[p];
+    } 
+}
+console.log('Минимальное число равно ' + min);
+console.log('Максимальное число равно ' + max);
+
