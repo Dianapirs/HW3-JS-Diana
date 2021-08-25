@@ -25,3 +25,14 @@ for(m = 0; m <= 100; m++) {
     sum = sum + m;
 }
 console.log('Сумма чисел равна ', sum);
+
+//Forth
+console.log('Forth');
+let sumF = 0;
+for(let h = 1; h <= 5; h++) {
+    let sumF = 0;
+    for(let j = 1; j <= h; j++) {
+        sumF = sumF + j; 
+    }
+    console.log('Сумма ' + h + ' = ' + sumF);
+}
