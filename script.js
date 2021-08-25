@@ -36,3 +36,20 @@ for(let h = 1; h <= 5; h++) {
     }
     console.log('Сумма ' + h + ' = ' + sumF);
 }
+
+//Fifth
+console.log('Fifth');
+console.log('While');
+let a = 8;
+while (a <= 56) {
+    if(a % 2 == 0){
+    console.log(a);
+    }
+    a++;
+}
+console.log('For');
+for(b = 8; b <= 56; b++) {
+    if(b % 2 == 0){
+        console.log(b);
+    }    
+}
